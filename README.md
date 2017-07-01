@@ -15,7 +15,7 @@ You can interact with Singularity Hub via the interface, Github repositories, an
    - the image is accessible programatically on Singularity Hub, and (soon) from the Singularity command line client.
 
 
-- [Usage Documentation](https://www.singularity-hub.org/faq)
+- [Usage Documentation](https://github.com/singularityhub/singularityhub.github.io/wiki)
 - [singularity-hub.org](https://www.singularity-hub.org)
 
 
