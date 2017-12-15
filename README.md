@@ -17,18 +17,25 @@ You can interact with Singularity Hub via the interface, Github repositories, an
 
 - [Usage Documentation](https://github.com/singularityhub/singularityhub.github.io/wiki)
 - [singularity-hub.org](https://www.singularity-hub.org)
+- [Terms of Service](http://singularity-hub.org/terms)
 
 
-## Features
-We will have more details coming in a manuscript, and for now please feel free to review the resources below, tell us about requests for features, or any questions that you might have.
+Singularity Hub is developed at Stanford University with support from Google Cloud. Thank you!
+
+## Citation
+For complete details, please see our [recent manuscript](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188511)
+
+```
+Sochat VV, Prybol CJ, Kurtzer GM (2017) Enhancing reproducibility in scientific computing: Metrics and registry for Singularity containers. PLoS ONE 12(11): e0188511. https://doi.org/10.1371/journal.pone.0188511
+```
+
+Please [tell us](https://www.github.com/singularityhub/singularityhub.github.io) about requests for features, or any questions that you might have.
 
 
 ### Look Inside
 After a build is complete, you can look through the folder/file hierarchy of your image, right in the web interface. You can also add containers to your "Container Snackbox" by clicking on various `+` buttons around the site. From the snackbox you can select one or a pair of images to compare.
 
-
 ![img/container-tree.png](img/container-tree.png)
-
 
 ### A Container Collection
 A container collection is associated with a Github repo, which will look for a file called `Singularity` in the base. Once a repo is connected to the hub, any new pushes will build a new image. Each image is version controlled with the commit, and you can define different tags for your images by pushing to different branches.
@@ -45,6 +52,7 @@ All build specs, logs, and running commands are easily viewable, and copy pastab
 ### Reproducibility
 Each build history, including the parameters for the cloud environment and builder, are stored, so you can go back and refer to any previous version. We will include more robust detail on this and all of the above in our upcoming manuscript.
 
+
 ## Get Help
-- [Joining our Slack](https://singularity-container.slack.com) is the quickest way to talk to the developers and other users.
+- [Joining Singularity Slack](https://singularity-container.slack.com) is the quickest way to talk to the developers and other users.
 - [Post an issue](https://www.github.com/singularityhub/singularityhub.github.io/issues) to this board for a question or issue about Singularity hub. If it pertains to a specific library image, please [find the image](https://singularity-hub.org/collections/library), click on the Github link, and post to it's board.
