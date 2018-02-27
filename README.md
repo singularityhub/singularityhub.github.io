@@ -1,7 +1,9 @@
 # Singularity Hub
 
 ## What is Singularity Hub?
-Singularity Hub is a registry for scientific [linux containers](https://opensource.com/resources/what-are-linux-containers).
+Singularity Hub is a registry for scientific [linux containers](https://opensource.com/resources/what-are-linux-containers). For documentation, see [our wiki](https://github.com/singularityhub/singularityhub.github.io/wiki). If you need help, [post an issue](https://github.com/singularityhub/singularityhub.github.io/issues) or interact with us directly on Gitter:
+
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/singularityhub/lobby)
 
 ## What is a Linux Container?
 A container image is an encapsulated, portalable environment that is created to distribute a scientific analysis or a general function. Containers help with reproducibility of such content as they nicely package software and data dependencies, along with libraries that are needed. Thus, the core of Singularity Hub are these Singularity container images, and by way of being on Singularity Hub they can be easily built, updated, referenced with a url for a publication, and shared. A Singularity container image is built from a specification text file named `Singularity`. If you are familiar with Docker, this file is akin to the [`Dockerfile`](https://docs.docker.com/engine/reference/builder/).
