@@ -236,7 +236,7 @@ a:active {
   border-top: 5px solid #ecf0f1;
   border-bottom: 5px solid #ecf0f1;
   border-right: 5px solid #ecf0f1;
-  background: #41aba0;
+  background: #a72121;
   width: 50px;
   height: 60px;
   -webkit-transform-origin: 0% 50%;
@@ -269,15 +269,15 @@ a:active {
             transform: perspective(600px) rotateY(0deg);
   }
   20% {
-    background: #41aba0;
+    background: #F7F7F7;
   }
   29.9% {
-    background: #41aba0;
+    background: #F7F7F7;
   }
   30% {
     -webkit-transform: perspective(200px) rotateY(-90deg);
             transform: perspective(200px) rotateY(-90deg);
-    background: #41aba0;
+    background: #F7F7F7;
   }
   54.999% {
     opacity: 1;
@@ -288,12 +288,12 @@ a:active {
   60% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
             transform: perspective(200px) rotateY(-180deg);
-    background: #41aba0;
+    background: #F7F7F7;
   }
   100% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
             transform: perspective(200px) rotateY(-180deg);
-    background: #41aba0;
+    background: #F7F7F7;
   }
 }
 
@@ -303,15 +303,15 @@ a:active {
             transform: perspective(600px) rotateY(0deg);
   }
   20% {
-    background: #41aba0;
+    background: #F7F7F7;
   }
   29.9% {
-    background: #41aba0;
+    background: #F7F7F7;
   }
   30% {
     -webkit-transform: perspective(200px) rotateY(-90deg);
             transform: perspective(200px) rotateY(-90deg);
-    background: #41aba0;
+    background: #F7F7F7;
   }
   54.999% {
     opacity: 1;
@@ -322,12 +322,12 @@ a:active {
   60% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
             transform: perspective(200px) rotateY(-180deg);
-    background: #41aba0;
+    background: #F7F7F7;
   }
   100% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
             transform: perspective(200px) rotateY(-180deg);
-    background: #41aba0;
+    background: #F7F7F7;
   }
 }
 
@@ -513,7 +513,7 @@ a:active {
     line-height: 25px;
     padding: 25px 28px 20px;
     text-align: center;
-    width: 49%;
+    width: 32%;
     margin-bottom: 3px;
 }
 #hero-area .block .counter ul li span {
@@ -539,7 +539,7 @@ a:active {
 }
 
 .init-slider .owl-dot {
-    background-color: #41aba0;
+    background-color: #F7F7F7;
     border-radius: 50px;
     display: inline-block;
     height: 10px;
