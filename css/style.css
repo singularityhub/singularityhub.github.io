@@ -404,7 +404,7 @@ a:active {
 }
 
 .navbar-default.animated {
-    background-color: #fff;
+    background-color: 0 4px 4px -2px rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.15);
     padding:10px;
 }
@@ -495,12 +495,13 @@ a:active {
 
 #hero-area .block .counter {
     background: rgba(255, 255, 255, 0.2);
-    padding:18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #hero-area .block .counter h2 {
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 5px;
     padding-bottom: 19px;
@@ -513,7 +514,7 @@ a:active {
     line-height: 25px;
     padding: 25px 28px 20px;
     text-align: center;
-    width: 32%;
+    width: 24%;
     margin-bottom: 3px;
 }
 #hero-area .block .counter ul li span {
