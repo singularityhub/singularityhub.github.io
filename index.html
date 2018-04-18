@@ -66,35 +66,77 @@
 	                            <ul id="countdown_dashboard">
 	                                <li>
 	                                    <div class="dash">
-	                                        <h2>Singularity Hub</h2>
-                                                <p>Publicly available cloud service for Singularity Containers</p>
-                                                  <a href="https://www.singularity-hub.org" target="_blank">
-                                                    <img src='/img/robot.png' width="180px" height="181px"></a><br>
+                                                <div class="row"> 
+                                                    <div class="col-md-4">
+                                                        <a href="https://www.singularity-hub.org" target="_blank">
+                                                        <img src='/img/robot.png' width="180px" height="181px"></a> 
+                                                    </div>                               
+                                                    <div class="col-md-8" style='text-align:left'> 
+	                                                <h2 style="text-align:left">Singularity Hub</h2>
+                                                        <p>Publicly available cloud service for Singularity Containers. 
+                                                           Singularity Hub will build your container recipes from Github
+                                                           repositories on Google Cloud, and containers are available
+                                                           via the command line Singularity or sregistry software.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
                                                         <a href="https://www.github.com/singularityhub.github.io/wiki"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-home"></i></a>
                                                         <a href="https://github.com/singularityhub/singularityhub.github.io"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-github"></i></a>
+                                                    </div>
+                                                </div>
 	                                    </div>
 	                                </li>
+
 	                                <li>
 	                                    <div class="dash">
-	                                        <h2>Tunel Interface</h2>
-                                                <p>Interface for Singularity Container Management</p>
+                                                <div class="row"> 
+                                                    <div class="col-md-4">
                                                     <a href="https://singularityhub.github.io/interface" target="_blank">
-                                                        <img src='/img/tunel.png' height="181px" width='180px'></a><br>
+                                                        <img src='/img/tunel.png' height="181px" width='180px'></a>
+                                                    </div> 
+                                                    <div class="col-md-8" style='text-align:left'> 
+	                                                <h2 style="text-align:left">Tunel Interface</h2>
+                                                        <p>Interface for Singularity Container Management. Tunel is a Dockerized
+                                                       application that gives interactive management for a local Global Client
+                                                       database with Singularity images. It includes integration with 
+                                                       <a href="https://www.globus.org" target="_blank">Globus</a>, along with a
+                                                       recipe generator, builder, and easy means to pull images from Singularity Hub,
+                                                       Docker Hub, and Nvidia Container Registry.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
                                                         <a href="https://singularityhub.github.io/interface"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-home"></i></a>
                                                         <a href="https://www.github.com/singularityhub/interface"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-github"></i>
                                                     </a>
+
+                                                    </div>
+                                                </div>
 	                                    </div>
 	                                </li>
 	                                <li>
 	                                    <div class="dash">
-	                                        <h2>Singularity Registry Server</h2>
-                                                <p>Deploy a Singularity Registry Server for your Institution</p>
+                                                <div class="row"> 
+                                                    <div class="col-md-4">
                                                   <a href="https://singularityhub.github.io/sregistry" target="_blank">
-                                                    <img src='/img/registry.png' height="181px" width='180px'></a><br>
+                                                    <img src='/img/registry.png' height="181px" width='180px'></a>
+                                                    </div> 
+                                                    <div class="col-md-8" style='text-align:left'> 
+                                                    <h2 style="text-align:left">Singularity Registry Server</h2>
+                                                     <p>Deploy a Singularity Registry Server for your Institution. If you
+                                                        want to manage your own version of a Singularity Registry and have the
+                                                        added ability to push directly to it, Singularity Registry Server meets
+                                                        your use case. You can use the registry module in the Global Client
+                                                        package to interact with your Singularity Registry Server.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
                                                         <a href="https://www.github.com/singularityhub/sregistry"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-home"></i></a>
                                                         <a href="https://singularityhub.github.io/sregistry"  target="_blank">
@@ -102,69 +144,138 @@
                                                         <a title="Register your registry"
                                                            href="https://singularityhub.github.io/containers/about"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-plus"></i></a>
+                                                    </div>
+                                                </div>
 	                                    </div>
 	                                </li>
 	                                <li>
 	                                    <div class="dash">
-	                                        <h2>Global Client</h2>
-                                                <p>Singularity Container Management for the Individual User, Globus Integration</p>
+                                                <div class="row"> 
+                                                    <div class="col-md-4">
                                                     <a href="https://singularityhub.github.io/sregistry-cli" target="_blank">
-                                                        <img src='/img/global.png' height="181px" width='180px'></a><br>
+                                                        <img src='/img/global.png' height="181px" width='180px'></a>
+                                                    </div> 
+                                                    <div class="col-md-8" style='text-align:left'> 
+                                                     <h2 style="text-align:left">Global Client</h2>
+                                                     <p>Singularity Container Management for the Individual User. It's easy to pull and
+                                                        build containers and lose track of where everything is. It's also hard to keep
+                                                        up with the number of storage locations for containers. The Global Client provides
+                                                        you with a local database to interact with images, and the multitude of
+                                                        endpoints (Google, Globus, Dropbox) to push/pull from.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
                                                         <a href="https://www.github.com/singularityhub/sregistry-cli"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-home"></i></a>
                                                         <a href="https://singularityhub.github.io/sregistry-cli"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-github"></i>
                                                     </a>
+                                                    </div>
+                                                </div>
 	                                    </div>
 	                                </li>
 	                                <li>
 	                                    <div class="dash">
-	                                        <h2>SCIF</h2>
-                                                <p>Scientific Filesystem: internal modularity for application discovery</p>
+                                                <div class="row"> 
+                                                    <div class="col-md-4">
                                                     <a href="https://sci-f.github.io" target="_blank">
-                                                        <img src='/img/scif.png' height="181px" width='180px'></a><br>
+                                                        <img src='/img/scif.png' height="181px" width='180px'></a>
+                                                    </div> 
+                                                    <div class="col-md-8" style='text-align:left'> 
+                                                     <h2 style="text-align:left">The Scientific Filesystem</h2>
+                                                      <p>Containers historically expose one entry point, and if we provide several applications in
+                                                         a container we need more, and we need to have internal
+                                                         modularity, meaning that our applications are clearly distinguished from the container
+                                                         base operating system. SCIF is a specification for a filesystem
+                                                         organization, an environment variable namespace, and client for application discovery.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
                                                         <a href="https://sci-f.github.io"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-home"></i></a>
                                                         <a href="https://www.github.com/vsoch/scif"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-github"></i>
                                                     </a>
+                                                    </div>
+                                                </div>
 	                                    </div>
 	                                </li>
 
 	                                <li>
 	                                    <div class="dash">
-	                                        <h2>Experiment Factory</h2>
-                                                <p>The Experiment Factory, containers for reproducible behavioral science</p>
+                                                <div class="row"> 
+                                                    <div class="col-md-4">
                                                     <a href="https://expfactory.github.io/expfactory" target="_blank">
                                                         <img style="margin-top:20px;margin-bottom:25px;" 
-                                                             src='/img/expfactory.png' width='180px'></a><br>
+                                                             src='/img/expfactory.png' width='180px'></a>
+                                                    </div> 
+                                                    <div class="col-md-8" style='text-align:left'> 
+	                                            <h2 style="text-align:left">Experiment Factory</h2>
+                                                    <p>The Experiment Factory, containers for reproducible behavioral science. The experiment
+                                                       Factory will allow you to package your behavioral experiments in a reproducible 
+                                                       container, supporting multiple database and experiment types, so that the container you
+                                                       use to collect your data is the same as the one that you share and publish.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
                                                         <a href="https://expfactory.github.io"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-home"></i></a>
                                                         <a href="https://www.github.com/expfactory"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-github"></i>
                                                     </a>
+
+                                                    </div>
+                                                </div>
 	                                    </div>
 	                                </li>
 	                                <li>
 	                                    <div class="dash">
-	                                        <h2>Builders</h2>
-                                                <p>Cloud builders from Github for Singularity containers</p>
-                                                  <a href="https://singularityhub.github.io/builders/" target="_blank">
-                                                    <img src='/img/builders.png' width="180px" height="181px"></a><br>
-                                                        <a href="https://singularityhub.github.io/builders/"  target="_blank">
+                                                <div class="row"> 
+                                                    <div class="col-md-4">
+                                                     <a href="https://singularityhub.github.io/builders/" target="_blank">
+                                                    <img src='/img/builders.png' width="180px" height="181px"></a>
+                                                    </div> 
+                                                    <div class="col-md-8" style='text-align:left'> 
+	                                            <h2 style="text-align:left">The Builders</h2>
+                                                        <p>Cloud builders from Github for Singularity containers. The Builders are
+                                                        a library of build configurations that plug into the Global Client to deploy
+                                                        a cloud build. The default configuration deploys a build on Google Compute,
+                                                        and saves in Google Storage.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                       <a href="https://singularityhub.github.io/builders/"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-home"></i></a>
                                                         <a href="https://github.com/singularityhub/builders"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-github"></i></a>
+                                                    </div>
+                                                </div>
 	                                    </div>
 	                                </li>
 	                                <li>
 	                                    <div class="dash">
-	                                        <h2>SPython</h2>
-                                                <p>Python Client for Singularity Command Line Software</p>
+                                                <div class="row"> 
+                                                    <div class="col-md-4">
                                                     <a href="https://singularityhub.github.io/singularity-cli" target="_blank">
-                                                        <img src='/img/spython.png' height="181px" width='180px'></a><br>
+                                                        <img src='/img/spython.png' height="181px" width='180px'></a>
+                                                    </div> 
+                                                    <div class="col-md-8" style='text-align:left'> 
+	                                            <h2 style="text-align:left">Singularity Python</h2>
+                                                    <p>Python Client for Singularity Command Line Software. Spython is the
+                                                       python client to wrap Singularity, providing the core commands along
+                                                       with a recipe converter.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
                                                         <a href="https://www.github.com/singularityhub/singularity-cli"  target="_blank">
                                                             <i class="fa vcon fa-2x fa-home"></i></a>
+                                                    </div>
+                                                </div>
                                         </div>
 	                                </li>
 

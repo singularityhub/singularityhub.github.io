@@ -51,6 +51,7 @@ ul {
 }
 
 a {
+   color: yellow;
     -webkit-transition: all 0.5s ease-in-out 0s;
     -moz-transition: all 0.5s ease-in-out 0s;
     -o-transition: all 0.5s ease-in-out 0s;
@@ -494,7 +495,6 @@ a:active {
 }
 
 #hero-area .block .counter {
-    background: rgba(255, 255, 255, 0.2);
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -508,14 +508,13 @@ a:active {
     text-align: center;
 }
 #hero-area .block .counter ul li {
-    background-color: rgba(255, 255, 255, 0.3);
     color: #fff;
     display: inline-block;
     line-height: 25px;
     padding: 25px 28px 20px;
     text-align: center;
-    width: 32%;
-    min-height:300px;
+    width: 49%;
+    min-height:340px;
     margin-bottom: 3px;
 }
 #hero-area .block .counter ul li span {
