@@ -514,7 +514,8 @@ a:active {
     line-height: 25px;
     padding: 25px 28px 20px;
     text-align: center;
-    width: 24%;
+    width: 32%;
+    min-height:300px;
     margin-bottom: 3px;
 }
 #hero-area .block .counter ul li span {
