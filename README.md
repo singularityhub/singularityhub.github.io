@@ -41,7 +41,8 @@ the majority of our tools use it.
  - [singularity-hub.org](https://www.singularity-hub.org) build service for Singularity containers from Github
    - [Documentation](https://github.com/singularityhub/singularityhub.github.io/wiki)
    - [Terms of Service](http://singularity-hub.org/terms)
- - [builders](https://singularityhub.github.io/sregistry-cli/client-google-compute) Deploy your own builders on Google Cloud
+ - [The Scientific Filesystem](https://sci-f.github.io) organizational format that supports exposure of executables and metadata for discoverability of applications in scientific containers.
+ - [The Builders](https://singularityhub.github.io/sregistry-cli/client-google-compute) Deploy your own builders on Google Cloud
    - [builders (developers)](https://singularityhub.github.io/builders) develop a custom builder for the library
 
 ### Container Technology
@@ -53,18 +54,9 @@ The Container Tools and Singularity Hub is developed at Stanford University with
 
 # Citations
 
-## Singularity Hub
-
-For details on Singularity Hub please see [our manuscript](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188511).
-
-```
-Sochat VV, Prybol CJ, Kurtzer GM (2017) Enhancing reproducibility in scientific computing: Metrics and registry for Singularity containers. PLoS ONE 12(11): e0188511. https://doi.org/10.1371/journal.pone.0188511
-```
-
-## Singularity Registry
-
-[![DOI](http://joss.theoj.org/papers/10.21105/joss.00426/status.svg)](https://doi.org/10.21105/joss.00426)
-
+ - [Singularity Hub](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188511).
+ - [Singularity Registry](https://doi.org/10.21105/joss.00426)
+ - [The Scientific Filesystem](https://doi.org/10.1093/gigascience/giy023)
 
 Please [tell us](https://www.github.com/singularityhub/singularityhub.github.io) about requests for features, or any questions that you might have.
 
