@@ -2,12 +2,12 @@
 
 Welcome to the container tools portal! 
 
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/singularityhub/lobby)
+
  - See the [tools here](https://singularityhub.github.io).
  - Follow [@containertools](https://www.twitter.com/containertools) on Twitter.
  - If you need help, [post an issue](https://github.com/singularityhub/singularityhub.github.io/issues)
 
-
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/singularityhub/lobby)
 
 ## What is a Linux Container?
 A container image is an encapsulated, portalable environment that is created to distribute a scientific analysis or a general function. Containers help with reproducibility of such content as they nicely package software and data dependencies, along with libraries that are needed.
