@@ -8,6 +8,7 @@ Welcome to the container tools portal!
  - Follow [@containertools](https://www.twitter.com/containertools) on Twitter.
  - If you need help, [post an issue](https://github.com/singularityhub/singularityhub.github.io/issues)
 
+![img/robot-banner.png](img/robot-banner.png)
 
 ## What is a Linux Container?
 A container image is an encapsulated, portalable environment that is created to distribute a scientific analysis or a general function. Containers help with reproducibility of such content as they nicely package software and data dependencies, along with libraries that are needed.
@@ -18,7 +19,6 @@ goal to serve the scientific community. Since [Singularity](https://singularityw
 a container technology that is friendly for shared computational resources common in the scientific community,
 the majority of our tools use it. 
 
-![img/singularity-hub.png](img/singularity-hub.png)
 
 ## Quick Links
 
