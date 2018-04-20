@@ -24,30 +24,29 @@ the majority of our tools use it.
 
 ### Container Management
 
- - [tunel interface](https://singularityhub.github.io/interface)
-   - recipe converters from Dockerfile to Singularity and back
-   - local building, pulling
-   - Globus integration 
- - [singularity global client](https://singularityhub.github.io/sregistry-cli)
+ - [Tunel Interface](https://singularityhub.github.io/interface) for interactive container management.
+   - Recipe converters from Dockerfile to Singularity and back
+   - Local building, pulling
+   - [Globus](https://singularityhub.github.io/interface/plugin-globus) integration 
+ - [Global Client](https://singularityhub.github.io/sregistry-cli) for command line container management.
    - Clients include Google Compute, Drive, Storage, Dropbox, Globus, Singularity Hub, and Singularity Registry
    - *under development* integration of cloud [builders](https://singularityhub.github.io/sregistry-cli/client-google-compute).
- - [singularity registry server](https://singularityhub.github.io/sregistry)
+ - [Singularity Registry](https://singularityhub.github.io/sregistry) server for institutions to deploy their own Singularity Container Registry.
    - *under development* security scanning with [Clair](https://github.com/coreos/clair).
    - *under development* integration with [Globus](https://www.globus.org)
    - *under development* integration of cloud [builders](https://singularityhub.github.io/sregistry-cli/client-google-compute).
 
 ### Building
 
- - [singularity-hub.org](https://www.singularity-hub.org)
+ - [singularity-hub.org](https://www.singularity-hub.org) build service for Singularity containers from Github
    - [Documentation](https://github.com/singularityhub/singularityhub.github.io/wiki)
    - [Terms of Service](http://singularity-hub.org/terms)
- - [builders](https://singularityhub.github.io/sregistry-cli/client-google-compute)
-   - [builders (developers)](https://singularityhub.github.io/builders)
-
+ - [builders](https://singularityhub.github.io/sregistry-cli/client-google-compute) Deploy your own builders on Google Cloud
+   - [builders (developers)](https://singularityhub.github.io/builders) develop a custom builder for the library
 
 ### Container Technology
 
-- [singularity software](https://singularityware.github.io)
+- [singularity software](https://singularityware.github.io) The core Singularity software maintained by [sylabs](https://sylabs.io)
 
 
 The Container Tools and Singularity Hub is developed at Stanford University with support from Google Cloud. Thank you!
