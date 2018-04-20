@@ -45,6 +45,11 @@ the majority of our tools use it.
  - [The Builders](https://singularityhub.github.io/sregistry-cli/client-google-compute) Deploy your own builders on Google Cloud
    - [builders (developers)](https://singularityhub.github.io/builders) develop a custom builder for the library
 
+### Domain Specific
+
+ - [The Experiment Factory](https://expfactory.github.io) Reproducible container-based experiments.
+
+
 ### Container Technology
 
 - [singularity software](https://singularityware.github.io) The core Singularity software maintained by [sylabs](https://sylabs.io)
@@ -57,6 +62,8 @@ The Container Tools and Singularity Hub is developed at Stanford University with
  - [Singularity Hub](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188511).
  - [Singularity Registry](https://doi.org/10.21105/joss.00426)
  - [The Scientific Filesystem](https://doi.org/10.1093/gigascience/giy023)
+ - [The Experiment Factory](https://doi.org/10.21105/joss.00521)
+
 
 Please [tell us](https://www.github.com/singularityhub/singularityhub.github.io) about requests for features, or any questions that you might have.
 
