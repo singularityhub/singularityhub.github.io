@@ -1,7 +1,11 @@
-## Link to Container Collection Log, Build, or Collection (in that order)
+### Links
 
-Write here.
+ - container collection:
+ - GitHub repository or recipe file:
 
+### Version of Singularity
+
+Write here
 
 ### Behavior when Building Locally
 
